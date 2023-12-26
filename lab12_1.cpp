@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int fibonacci(int);
+long long int fibonacci(int);
 
 int main(){
     int x;
@@ -10,10 +10,10 @@ int main(){
     return 0; 
 }
 
-int fibonacci(int n){
-    int N;
+long long int fibonacci(int n){
+    long long int N;
     if(n == 0){
-        N = 0;
+        N = 0 ;
     }
     if(n == 1){
         N = 1;
